@@ -1,0 +1,96 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+  background-image: url(../img/sfondo.png);
+  background-position: center;
+  padding: 20px;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  background: linear-gradient(180deg, rgba(0, 153, 187, 1) 16%, rgb(0, 96, 121) 100%);
+  margin-bottom: 1rem;
+  color: #ddd;
+
+  padding: 20px;
+}
+nav {
+  color: #ddd;
+}
+
+/* MAIN */
+h1 {
+  font-size: 35px;
+  padding-bottom: 25px;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+iframe {
+  border-radius: 20px;
+  text-align: center;
+  width: 100%;
+  height: 170px;
+}
+
+main {
+  background-color: white;
+  padding: 15px;
+}
+caption {
+  padding-top: 1rem;
+}
+strong {
+  color: rgb(218, 50, 218);
+}
+section {
+  background-color: lightgrey;
+  margin-top: 30px;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+table {
+  margin: auto;
+
+  background-color: #ccc;
+  border-bottom: 1px solid rgb(93, 123, 189);
+}
+tr {
+  background-color: #ddd;
+}
+th {
+  background-color: rgb(93, 123, 189);
+  border: 1px solid white;
+  color: white;
+  padding-inline: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+td {
+  padding-inline: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+.articoli-correlati {
+  background-color: lightgrey;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+/* FOOTER */
+footer {
+  padding: 15px;
+  text-align: center;
+  background: linear-gradient(180deg, rgb(7, 104, 126) 16%, rgb(0, 96, 121) 100%);
+  margin-top: 1rem;
+  color: white;
+}
+.email {
+  color: rgb(218, 51, 218);
+}
