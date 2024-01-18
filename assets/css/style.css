@@ -3,29 +3,42 @@ body {
   background-image: url(../img/sfondo.png);
   background-position: center;
   padding: 20px;
+  font-family: "Poppins", sans-serif;
 }
 
 /* HEADER */
 header {
+  text-transform: uppercase;
   text-align: center;
   background: linear-gradient(180deg, rgba(0, 153, 187, 1) 16%, rgb(0, 96, 121) 100%);
   margin-bottom: 1rem;
-  color: #ddd;
+  color: white;
+  font-weight: 600;
 
+  box-shadow: 0 4px 15px grey;
   padding: 20px;
+  line-height: 20px;
 }
+
 nav {
+  color: #ddd;
+}
+
+header a {
   color: #ddd;
 }
 
 /* MAIN */
 h1 {
-  font-size: 35px;
+  font-size: 30px;
   padding-bottom: 25px;
+  font-weight: 600;
 }
 h2 {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
+  padding-top: 20px;
+  font-weight: 600;
 }
 iframe {
   border-radius: 20px;
@@ -37,6 +50,7 @@ iframe {
 main {
   background-color: white;
   padding: 15px;
+  box-shadow: 0 4px 15px grey;
 }
 caption {
   padding-top: 1rem;
@@ -47,24 +61,50 @@ strong {
 section {
   background-color: lightgrey;
   margin-top: 30px;
+  padding-bottom: 20px;
 }
+p {
+  padding-bottom: 15;
+  padding-top: 15;
+  line-height: 20px;
+}
+
 /* ELEMENTI NEL MAIN - ARTICLE */
 
+ul {
+  list-style-type: disc;
+}
+ol {
+  list-style-type: decimal;
+}
+li {
+  margin-inline: 30px;
+  line-height: 20px;
+}
+article div {
+  color: rgb(184, 183, 183);
+}
+
+code {
+  border: 1px solid rgb(182, 182, 182);
+  border-radius: 5px;
+  background-color: lightgray;
+}
 /* TABELLE */
 table {
-  margin: auto;
+  margin-inline: auto;
 
   background-color: #ccc;
   border-bottom: 1px solid rgb(93, 123, 189);
 }
 tr {
-  background-color: #ddd;
+  background-color: #ffffff;
 }
 th {
   background-color: rgb(93, 123, 189);
   border: 1px solid white;
   color: white;
-  padding-inline: 20px;
+  padding-inline: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -73,14 +113,37 @@ td {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+table caption {
+  font-weight: 600;
+  font-style: italic;
+}
 
 /* FORM */
+input {
+  border-style: none;
+}
+form {
+  padding-top: 10px;
+  text-align: center;
+}
+button {
+  color: rgb(255, 255, 255);
+  background-color: #2078b3;
+}
 
 /* ELEMENTI NELL' ASIDE */
+aside {
+  font-weight: 600;
+}
 .articoli-correlati {
   background-color: lightgrey;
   margin-top: 30px;
   padding-bottom: 20px;
+  padding-top: 20px;
+  padding-inline: 10px;
+}
+.data {
+  text-align: end;
   padding-top: 20px;
 }
 /* FOOTER */
@@ -90,6 +153,7 @@ footer {
   background: linear-gradient(180deg, rgb(7, 104, 126) 16%, rgb(0, 96, 121) 100%);
   margin-top: 1rem;
   color: white;
+  box-shadow: 0 4px 15px grey;
 }
 .email {
   color: rgb(218, 51, 218);
